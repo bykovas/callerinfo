@@ -14,6 +14,7 @@ struct callerinfoApp: App {
         let schema = Schema([
             Item.self,
         ])
+        // comment
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
         do {
